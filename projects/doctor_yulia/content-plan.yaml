@@ -1,0 +1,91 @@
+# Content Plan: doctor_yulia
+# Формат: список тем с датами. Если дата пропущена — scheduler назначит сам.
+# Типы: educational, myth_bust, tip_of_day, behind_the_scenes, qna, trend_review
+# Форматы: carousel, avatar_video, image, reel
+
+plan:
+  - date: "2025-06-02"
+    topic: "Почему SPF 50 не защищает в 2 раза лучше SPF 30"
+    type: "myth_bust"
+    format: "carousel"
+
+  - date: "2025-06-03"
+    topic: "Утренняя рутина для сухой кожи: 3 шага"
+    type: "tip_of_day"
+    format: "avatar_video"
+
+  - date: "2025-06-04"
+    topic: "Что происходит с кожей после 30: коллаген, эластин, гиалурон"
+    type: "educational"
+    format: "carousel"
+
+  - date: "2025-06-05"
+    topic: "Витамин С в уходе: мифы и реальность"
+    type: "myth_bust"
+    format: "carousel"
+
+  - date: "2025-06-06"
+    topic: "Как я готовлюсь к рабочему дню в клинике"
+    type: "behind_the_scenes"
+    format: "avatar_video"
+
+  - date: "2025-06-07"
+    topic: "Ретинол: с чего начать новичку"
+    type: "educational"
+    format: "carousel"
+
+  - date: "2025-06-08"
+    topic: "Отвечаю на вопрос: болят ли инъекции?"
+    type: "qna"
+    format: "avatar_video"
+
+  # --- Неделя 2 ---
+  - date: "2025-06-09"
+    topic: "Миф: натуральная косметика безопаснее"
+    type: "myth_bust"
+    format: "carousel"
+
+  - date: "2025-06-10"
+    topic: "Совет дня: как правильно наносить сыворотку"
+    type: "tip_of_day"
+    format: "image"
+
+  - date: "2025-06-11"
+    topic: "Разбор тренда: skin flooding"
+    type: "trend_review"
+    format: "carousel"
+
+  - date: "2025-06-12"
+    topic: "Почему кожа шелушится после пилинга"
+    type: "educational"
+    format: "carousel"
+
+  - date: "2025-06-13"
+    topic: "5 вопросов, которые я задаю на консультации"
+    type: "behind_the_scenes"
+    format: "avatar_video"
+
+  - date: "2025-06-14"
+    topic: "Можно ли делать пилинг летом"
+    type: "myth_bust"
+    format: "carousel"
+
+  - date: "2025-06-15"
+    topic: "Отвечаю на вопросы подписчиков (выпуск 2)"
+    type: "qna"
+    format: "avatar_video"
+
+# Генерация на лету (если план закончился)
+auto_generate:
+  enabled: true
+  topics_pool:
+    - "Гиалуроновая кислота: правда и вымысел"
+    - "Почему в 25 уже нужен антивозрастной уход"
+    - "Разница между кремом и сывороткой"
+    - "Как читать состав косметики"
+    - "Пигментация: причины и профилактика"
+    - "Массаж лица: работает или нет"
+    - "Криотерапия в косметологии"
+    - "Лазерная эпиляция: 5 главных вопросов"
+    - "Уход за кожей вокруг глаз"
+    - "Почему прыщи возникают после 30"

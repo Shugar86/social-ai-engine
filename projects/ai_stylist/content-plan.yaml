@@ -1,0 +1,90 @@
+# Content Plan: ai_stylist
+# Формат: список тем с датами.
+# Типы: scorecard, style_tip, trend, behind_the_scenes, user_story, color_theory
+# Форматы: image, carousel, reel
+
+plan:
+  - date: "2025-06-02"
+    topic: "Цветотип "Зима": 5 цветов, которые должны быть в гардеробе"
+    type: "color_theory"
+    format: "carousel"
+
+  - date: "2025-06-03"
+    topic: "AI-анализ: тип фигуры "Песочные часы" — что носить"
+    type: "scorecard"
+    format: "image"
+
+  - date: "2025-06-04"
+    topic: "Миф: чёрный идёт всем"
+    type: "style_tip"
+    format: "carousel"
+
+  - date: "2025-06-05"
+    topic: "Тренд лета 2025: макси-платья — кому идут"
+    type: "trend"
+    format: "carousel"
+
+  - date: "2025-06-06"
+    topic: "Как AI видит ваш стиль: пример анализа"
+    type: "scorecard"
+    format: "image"
+
+  - date: "2025-06-07"
+    topic: "3 ошибки в подборе джинсов по фигуре"
+    type: "style_tip"
+    format: "carousel"
+
+  - date: "2025-06-08"
+    topic: "Цветотип "Осень": золото, терракота, охра"
+    type: "color_theory"
+    format: "carousel"
+
+  # --- Неделя 2 ---
+  - date: "2025-06-09"
+    topic: "AI vs стилист: честное сравнение"
+    type: "behind_the_scenes"
+    format: "carousel"
+
+  - date: "2025-06-10"
+    topic: "Пользовательский кейс: "Я наконец поняла свой цветотип""
+    type: "user_story"
+    format: "image"
+
+  - date: "2025-06-11"
+    topic: "Тренд: oversized пиджаки — как носить неформалам"
+    type: "trend"
+    format: "carousel"
+
+  - date: "2025-06-12"
+    topic: "Миф: горизонтальная полоска полнит"
+    type: "style_tip"
+    format: "carousel"
+
+  - date: "2025-06-13"
+    topic: "AI-анализ: мужской стиль — тип фигуры "Прямоугольник""
+    type: "scorecard"
+    format: "image"
+
+  - date: "2025-06-14"
+    topic: "Цветотип "Весна": персик, коралл, нежно-зелёный"
+    type: "color_theory"
+    format: "carousel"
+
+  - date: "2025-06-15"
+    topic: "5 вещей, которые выдают неподходящий цветотип"
+    type: "style_tip"
+    format: "carousel"
+
+auto_generate:
+  enabled: true
+  topics_pool:
+    - "Как определить свой цветотип за 5 минут"
+    - "Ювелирка по цветотипу: золото или серебро"
+    - "Фасоны платьев по типу фигуры"
+    - "Обувь, которая удлиняет ноги"
+    - "Как носить принты, если вы минималист"
+    - "Сумки: размер vs рост"
+    - "Мужской деловой стиль: 5 базовых вещей"
+    - "Как адаптировать тренды под офис"
+    - "Аксессуары: меньше или больше"
+    - "Правило 3 цветов в образе"

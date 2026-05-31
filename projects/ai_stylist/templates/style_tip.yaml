@@ -1,0 +1,32 @@
+template: style_tip
+name: "Совет стилиста"
+description: "Короткий модный совет с визуалом"
+
+system_prompt: |
+  Ты — fashion-эксперт. Дай один конкретный совет по стилю.
+  Можно табу, миф, контринтуитивный факт.
+  Коротко. Без воды.
+
+structure:
+  - hook: "Миф или ошибка (1 предложение)"
+  - tip: "Что делать вместо этого"
+  - example: "Конкретный пример (цвет, фасон, сочетание)"
+  - cta: "Сохрани или поделись"
+
+hashtags:
+  pool:
+    - стиль
+    - мода
+    - советыстилиста
+    - образ
+    - fashion
+    - лайфхак
+  count: 4
+
+format_options:
+  image:
+    style: "fashion_infographic"
+    text_on_image: true
+  carousel:
+    slides: 3
+    slide_titles: ["Ошибка", "Решение", "Пример"]

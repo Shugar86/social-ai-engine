@@ -1,0 +1,26 @@
+template: default
+name: "Шаблон по умолчанию"
+description: "Описание того, что генерирует этот шаблон"
+
+system_prompt: |
+  TODO: Системный промпт для LLM.
+  Опишите роль, тон, ограничения.
+
+structure:
+  - hook: "Захватывающее начало"
+  - body: "Основная часть"
+  - cta: "Призыв к действию"
+
+hashtags:
+  pool:
+    - hashtag1
+    - hashtag2
+  count: 3
+
+format_options:
+  carousel:
+    slides: 3
+    slide_titles: ["Начало", "Суть", "Вывод"]
+  image:
+    style: "minimalist"
+    text_on_image: true

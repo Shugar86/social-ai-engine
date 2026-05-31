@@ -1,0 +1,21 @@
+# Content Plan: CHANGE_ME
+# Формат: список тем с датами.
+# Если дата не указана — scheduler назначит сам, ориентируясь на publish_times.
+
+plan:
+  - date: "2025-06-01"
+    topic: "Пример темы первого поста"
+    type: "default"
+    format: "carousel"
+
+  - date: "2025-06-02"
+    topic: "Пример темы второго поста"
+    type: "default"
+    format: "image"
+
+auto_generate:
+  enabled: true
+  topics_pool:
+    - "Тема для автогенерации 1"
+    - "Тема для автогенерации 2"
+    - "Тема для автогенерации 3"

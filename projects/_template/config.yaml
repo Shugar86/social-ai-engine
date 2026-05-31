@@ -1,0 +1,46 @@
+# Project configuration template
+# Copy this folder to projects/<your_project_name>/ and fill in the values.
+
+project:
+  name: "CHANGE_ME"           # Machine name: lowercase, underscores
+  display_name: "Change Me"   # Human-readable name
+  timezone: "Europe/Moscow"
+  language: "ru"
+
+approval:
+  mode: "manual"              # "manual" or "auto"
+  auto_publish_after: "24h"
+  approvers:
+    - type: "telegram"
+      chat_id: "${CHANGE_ME_APPROVAL_CHAT_ID}"
+
+publishing:
+  platforms:
+    - name: "instagram"
+      credentials:
+        ig_user_id: "${CHANGE_ME_IG_USER_ID}"
+        access_token: "${CHANGE_ME_IG_ACCESS_TOKEN}"
+      publish_times:
+        - "09:00"
+        - "15:00"
+        - "19:00"
+
+generation:
+  llm:
+    provider: "openrouter"
+    model: "openai/gpt-5.4"
+    fallback_model: "anthropic/claude-sonnet-4"
+    base_url: "https://openrouter.ai/api/v1"
+  image:
+    provider: "dalle3"
+    size: "1024x1024"
+  templates_dir: "projects/CHANGE_ME/templates"
+
+content_plan:
+  source: "projects/CHANGE_ME/content-plan.yaml"
+  default_format: "carousel"
+
+limits:
+  max_posts_per_day: 3
+  max_carousel_slides: 10
+  caption_max_length: 2200
