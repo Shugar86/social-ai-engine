@@ -5,8 +5,10 @@
 
 ## [Unreleased]
 
-### Added
-- vibe-first проход документации: README, AGENTS, LICENSE, CONTRIBUTING, CHANGELOG.
+### Changed
+- Документация доведена до 10/10: hero-секция, badges, вайб-голос, структура и примеры в `README.md`.
+- Уточнён `AGENTS.md`: контракт, стек, git workflow, DoD, эскалация и примеры кода.
+- Улучшены `CONTRIBUTING.md` и `CHANGELOG.md`: чёткие шаги, DoD, единое оформление.
 
 ## [0.1.0] — 2026-06-14
 
