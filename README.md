@@ -144,6 +144,14 @@ social-ai-engine/
 
 ---
 
+## 📍 С чего начать чтение
+
+Чтобы разобраться в проекте за ~15 минут, читай в таком порядке:
+
+1. **`core/interfaces.py`** — центральные контракты (ABC): `Post`, `ContentGenerator`, `Publisher`, `Approver`, `Queue`, `Scheduler`. Это «скелет» движка.
+2. **`publishers/interfaces.py`** — контракт `Publisher` (`publish()` + `health_check()`): именно его реализуют конкретные публикаторы.
+3. **`scripts/init_project.py`** — как заводится новый бренд/проект из YAML-конфига.
+
 ## Примеры
 
 ### Добавить новый проект
